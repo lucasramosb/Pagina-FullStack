@@ -3,7 +3,6 @@
     src: url('Fonts/HelveticaUltraLt_0.ttf' ) format('truetype');
 }
 
-
 *{
     box-sizing: border-box;
 }
@@ -18,6 +17,7 @@ body{
     font-weight: 100;
     font-family: Helvetica 25 UltraLight Regular;
 }
+
 .title h3{
     color: white;
     font-weight: 100;
@@ -29,27 +29,22 @@ ul{
     display: flex;
     margin-right: 50vh;
     float: right;
-    
 }
 
 li a{
     margin: 0 15px;
     color: white;
     text-decoration: none;
-
 }
 li a:hover{
     color: white;
     border-bottom: 1px solid white;
-    
 }
 
 nav {
     display: block;
     width: 100vw;
-    margin-top: 5vh;
-    
-    
+    margin-top: 5vh;  
 }
 
 a{
@@ -63,14 +58,12 @@ header{
     width: 100vw;
     background: url(imagens/index-image.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;   
 }
 
 .title{
     margin-left: 50vh;
-    margin-top: 20vh;
-    
+    margin-top: 20vh;    
 }
 
 .title h1{
@@ -90,46 +83,25 @@ header{
     padding-top: 5%;
     margin-bottom: 10%;
     font-weight: 100;
-    color: white;
-    
+    color: white;    
 }
 
-/* .inputs{
-    
-    width: 400px;
-    position: absolute;
-    transform: translate(-50%, -50%)
-    left:50%;
-} */
 p{
     padding: 5px;
 }
-
-
-/* form{
-    width: 400px;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%)
-
-} */
 
 form{
     width: 500px;
     position: relative;
     top: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%);  
     margin-top: 8%;
 }
 
 .input {
     background-color: #29abe2;
-    
 }
-
 
 form div.inputs{
     position: relative;
@@ -149,19 +121,11 @@ form div.inputs .input{
     border:  0;
     border-bottom: 1px solid white;
     outline: 0;
-    color: white;
-
-    
+    color: white;  
 }
-form div.inputs .input:focus{
-    
-    border-bottom: 2px solid white;
-    
-    
+form div.inputs .input:focus{  
+    border-bottom: 2px solid white;        
 }
-/* form div.inputs .input:focus ~ label{
-    transform: translateY(-20px);    
-} */
 
 .btnc{
     position: relative;
@@ -177,9 +141,7 @@ form div.inputs .input:focus{
 }
 
 .dados{
-    
     height: 75vh;
-    
 }
 
 .conteudo{
@@ -194,7 +156,6 @@ form div.inputs .input:focus{
 #tbCadastro{
     text-align: center;
     display: flex;
-    
 }
 
 td{
@@ -203,7 +164,6 @@ td{
 
 
 .footer{
-    
     display: flex;
     height: 40vh;
     width: 100vw;
@@ -221,6 +181,7 @@ td{
     margin-bottom: 50%;
     margin-top: 5%;
 }
+
 .contentFooter P{
     padding: 0;
     text-align: center;
