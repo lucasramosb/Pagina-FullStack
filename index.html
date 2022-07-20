@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a href="">
+                <img src="logo-in8-dev.svg" width="140px">
+            </a>
+            <ul>
+                <li><a href="">Cadastro</a></li>
+                <li></li>
+                <li><a href="">Lista</a></li>
+                <li><a href="">Sobre mim</a></li>
+            </ul>
+            <div class="title">
+                <h1>ESTÁGIO</h1>
+                <h3>PROVA DE SELEÇÃO</h3>
+            </div>
+        </nav>
+    </header>
+
+    <section class="cadastro">
+        <h1 class="cad">CADASTRO</h1>
+        
+        <form >
+
+            <div class="inputs">
+                <input type="text" class="input" id="nome" name="nome" required>
+                <label for="nome">Nome</label>
+            </div>
+            <div class="inputs">
+                <input type="text" class="input" id="email" name="email" required>
+                <label for="nome">E-mail</label>
+            </div>
+            <div class="inputs">
+                <input type="text" class="input" id="nascimento" name="nascimento" required>
+                <label for="nome">Nascimento</label>
+            </div>
+            <div class="inputs">
+                <input type="text" class="input" id="telefone" name="telefone" required>
+                <label for="nome">Telefone</label>
+            </div>
+            
+            <div class="">
+                <input type="button" value="CADASTRAR" onclick="cadastrar(nome.value, email.value, nascimento.value, telefone.value)" class="btnc">
+            </div>
+
+
+        </form>
+    </section>
+
+    <section class="dados" >
+
+        <div class="conteudo">
+            <h1>LISTA DE CADASTRO</h1>
+
+            <div id="tbCadastro">
+                <!-- <table id="tblCadastro">
+                    <thead>
+                        <tr>
+                            <td>Codigo</td>
+                            <td>Nome</td>
+                            <td>E-mail</td>
+                            <td>Nascimento</td>
+                            <td>Telefone</td>
+                        </tr>
+                    </thead>
+                </table> -->
+
+                <p>NOME</p>
+                <p>E-MAIL</p>
+                <p>Nascimento</p>
+                <p>TELEFONE</p>
+                
+
+            </div>
+        </div>
+
+        
+
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="contentFooter">
+                <p>Lucas Ramos Barbosa</p>
+                <p>lucasramos1123.lr29@gmail.com</p>
+                <p>31 987015084</p>
+                <p>Faculdade Estacio</p>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
