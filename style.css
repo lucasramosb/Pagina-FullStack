@@ -17,7 +17,6 @@ body{
     font-weight: 100;
     font-family: Helvetica 25 UltraLight Regular;
 }
-
 .title h3{
     color: white;
     font-weight: 100;
@@ -36,6 +35,7 @@ li a{
     color: white;
     text-decoration: none;
 }
+
 li a:hover{
     color: white;
     border-bottom: 1px solid white;
@@ -44,7 +44,7 @@ li a:hover{
 nav {
     display: block;
     width: 100vw;
-    margin-top: 5vh;  
+    margin-top: 5vh; 
 }
 
 a{
@@ -58,12 +58,12 @@ header{
     width: 100vw;
     background: url(imagens/index-image.jpg);
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;
 }
 
 .title{
     margin-left: 50vh;
-    margin-top: 20vh;    
+    margin-top: 20vh; 
 }
 
 .title h1{
@@ -83,8 +83,10 @@ header{
     padding-top: 5%;
     margin-bottom: 10%;
     font-weight: 100;
-    color: white;    
+    color: white;
+    
 }
+
 
 p{
     padding: 5px;
@@ -95,13 +97,14 @@ form{
     position: relative;
     top: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
     margin-top: 8%;
 }
 
 .input {
     background-color: #29abe2;
 }
+
 
 form div.inputs{
     position: relative;
@@ -121,10 +124,10 @@ form div.inputs .input{
     border:  0;
     border-bottom: 1px solid white;
     outline: 0;
-    color: white;  
+    color: white; 
 }
-form div.inputs .input:focus{  
-    border-bottom: 2px solid white;        
+form div.inputs .input:focus{
+    border-bottom: 2px solid white;
 }
 
 .btnc{
@@ -155,7 +158,7 @@ form div.inputs .input:focus{
 
 #tbCadastro{
     text-align: center;
-    display: flex;
+    display: flex; 
 }
 
 td{
@@ -172,7 +175,7 @@ td{
     background-size: cover;
 }
 
-.contentFooter{
+.conteudoFooter{
     width: 700px;
     position: relative;
     left: 50%;
@@ -181,8 +184,7 @@ td{
     margin-bottom: 50%;
     margin-top: 5%;
 }
-
-.contentFooter P{
+.conteudoFooter P{
     padding: 0;
     text-align: center;
 }
